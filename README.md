@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+-- Replicate mmPoint on HuPR
+
+
 # mmPoint
 replication of mmPoint repo
 =======
