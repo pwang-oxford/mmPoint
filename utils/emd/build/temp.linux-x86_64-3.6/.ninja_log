@@ -1,0 +1,10 @@
+# ninja log v5
+2	11326	1675893257879172357	/mnt/nas/qian/mmwave/3DAttriFlow/utils/emd/build/temp.linux-x86_64-3.6/emd_cuda.o	f41e537cbcfcbb30
+2	18082	1675893264621172647	/mnt/nas/qian/mmwave/3DAttriFlow/utils/emd/build/temp.linux-x86_64-3.6/emd.o	5cd03aab16ead162
+<<<<<<< HEAD
+0	10767	1743672691186285358	/hdd1/pu/mmPoint/mmPoint/utils/emd/build/temp.linux-x86_64-3.6/emd_cuda.o	3dbfe0e8dfcf2b4c
+0	17910	1743672698325811455	/hdd1/pu/mmPoint/mmPoint/utils/emd/build/temp.linux-x86_64-3.6/emd.o	247ef328191f8870
+=======
+>>>>>>> Initial commit
+0	10569	1743676526387650776	/hdd1/pu/mmPoint/utils/emd/build/temp.linux-x86_64-3.6/emd_cuda.o	a9830711b7a6628c
+0	18572	1743676534387119682	/hdd1/pu/mmPoint/utils/emd/build/temp.linux-x86_64-3.6/emd.o	c1d2e098226b822e

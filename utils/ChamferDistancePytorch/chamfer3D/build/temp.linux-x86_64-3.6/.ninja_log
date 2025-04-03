@@ -1,0 +1,10 @@
+# ninja log v5
+1	11022	1675892323016132128	/mnt/nas/qian/mmwave/3DAttriFlow/utils/ChamferDistancePytorch/chamfer3D/build/temp.linux-x86_64-3.6/chamfer3D.o	f02a749119b3a89f
+1	18862	1675892330841132465	/mnt/nas/qian/mmwave/3DAttriFlow/utils/ChamferDistancePytorch/chamfer3D/build/temp.linux-x86_64-3.6/chamfer_cuda.o	c64ddf83c32776a3
+<<<<<<< HEAD
+1	11481	1743672557311171660	/hdd1/pu/mmPoint/mmPoint/utils/ChamferDistancePytorch/chamfer3D/build/temp.linux-x86_64-3.6/chamfer3D.o	4766fd180b929a4e
+0	19227	1743672565054657665	/hdd1/pu/mmPoint/mmPoint/utils/ChamferDistancePytorch/chamfer3D/build/temp.linux-x86_64-3.6/chamfer_cuda.o	970a986d3411a3da
+=======
+>>>>>>> Initial commit
+0	10696	1743676439277434138	/hdd1/pu/mmPoint/utils/ChamferDistancePytorch/chamfer3D/build/temp.linux-x86_64-3.6/chamfer3D.o	2fa90d1f780a6f8c
+0	18967	1743676447548884984	/hdd1/pu/mmPoint/utils/ChamferDistancePytorch/chamfer3D/build/temp.linux-x86_64-3.6/chamfer_cuda.o	d04399610716347b

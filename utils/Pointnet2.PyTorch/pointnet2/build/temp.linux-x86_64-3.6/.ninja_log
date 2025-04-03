@@ -1,0 +1,19 @@
+# ninja log v5
+1	5863	1743672614519374316	/hdd1/pu/mmPoint/mmPoint/utils/Pointnet2.PyTorch/pointnet2/build/temp.linux-x86_64-3.6/src/sampling.o	2e519c2eb9e47f1d
+2	5924	1743672614583370068	/hdd1/pu/mmPoint/mmPoint/utils/Pointnet2.PyTorch/pointnet2/build/temp.linux-x86_64-3.6/src/interpolate.o	d5c87c98327248a4
+1	6054	1743672614711361572	/hdd1/pu/mmPoint/mmPoint/utils/Pointnet2.PyTorch/pointnet2/build/temp.linux-x86_64-3.6/src/ball_query.o	b1e17a27b0011b70
+2	6294	1743672614951345643	/hdd1/pu/mmPoint/mmPoint/utils/Pointnet2.PyTorch/pointnet2/build/temp.linux-x86_64-3.6/src/group_points.o	8b38ddb74aae4d06
+3	14656	1743672623302791294	/hdd1/pu/mmPoint/mmPoint/utils/Pointnet2.PyTorch/pointnet2/build/temp.linux-x86_64-3.6/src/interpolate_gpu.o	89401b7b0ab60e5e
+1	15029	1743672623674766604	/hdd1/pu/mmPoint/mmPoint/utils/Pointnet2.PyTorch/pointnet2/build/temp.linux-x86_64-3.6/src/ball_query_gpu.o	ab25e7a5c415a55e
+2	16136	1743672624782693062	/hdd1/pu/mmPoint/mmPoint/utils/Pointnet2.PyTorch/pointnet2/build/temp.linux-x86_64-3.6/src/group_points_gpu.o	9589b2f5f1dde1d5
+3	17251	1743672625894619256	/hdd1/pu/mmPoint/mmPoint/utils/Pointnet2.PyTorch/pointnet2/build/temp.linux-x86_64-3.6/src/sampling_gpu.o	4c3319e120d1a228
+0	20019	1743672628662435534	/hdd1/pu/mmPoint/mmPoint/utils/Pointnet2.PyTorch/pointnet2/build/temp.linux-x86_64-3.6/src/pointnet2_api.o	5f54ed593315c738
+2	6062	1743676486830277038	/hdd1/pu/mmPoint/utils/Pointnet2.PyTorch/pointnet2/build/temp.linux-x86_64-3.6/src/group_points.o	4da8a46e7f0b2576
+2	6092	1743676486862274914	/hdd1/pu/mmPoint/utils/Pointnet2.PyTorch/pointnet2/build/temp.linux-x86_64-3.6/src/interpolate.o	c07fadd5ab4274c4
+0	6169	1743676486938269868	/hdd1/pu/mmPoint/utils/Pointnet2.PyTorch/pointnet2/build/temp.linux-x86_64-3.6/src/ball_query.o	70cd475ac4e5cba2
+3	6583	1743676487350242516	/hdd1/pu/mmPoint/utils/Pointnet2.PyTorch/pointnet2/build/temp.linux-x86_64-3.6/src/sampling.o	a7e35831539e7165
+2	15447	1743676496201654860	/hdd1/pu/mmPoint/utils/Pointnet2.PyTorch/pointnet2/build/temp.linux-x86_64-3.6/src/group_points_gpu.o	e3ea94f776cbbd59
+1	15679	1743676496441638927	/hdd1/pu/mmPoint/utils/Pointnet2.PyTorch/pointnet2/build/temp.linux-x86_64-3.6/src/ball_query_gpu.o	9081050744f14c54
+3	15908	1743676496665624056	/hdd1/pu/mmPoint/utils/Pointnet2.PyTorch/pointnet2/build/temp.linux-x86_64-3.6/src/interpolate_gpu.o	4e59f604d35bc1b8
+1	16023	1743676496777616621	/hdd1/pu/mmPoint/utils/Pointnet2.PyTorch/pointnet2/build/temp.linux-x86_64-3.6/src/sampling_gpu.o	fd14b01cac6b4087
+0	20264	1743676501021334876	/hdd1/pu/mmPoint/utils/Pointnet2.PyTorch/pointnet2/build/temp.linux-x86_64-3.6/src/pointnet2_api.o	1092e920b457dbdc
