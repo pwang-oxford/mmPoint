@@ -1,10 +1,5 @@
--- Replicate mmPoint on HuPR
-
-
-# mmPoint
-replication of mmPoint repo
-=======
-# mmPoint (BMVC2023)
+# Replicate mmPoint (BMVC2023) on HuPR
+----
 ## Introduction
 This repository is the [mmPoint: Dense Human Point Cloud Generation from mmWave](https://papers.bmvc2023.org/0194.pdf) code implementation. In this paper, we propose to generate dense 3D human point clouds from mmWave radar signals.
 
