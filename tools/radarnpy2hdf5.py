@@ -17,8 +17,8 @@ class Normalize(object):
         return (radarDataNorm - mean.view(c, 1, 1)) / std.view(c, 1, 1)
 
 # need to be set manually
-source_dir = 'your path to save the npy radar signal files' # your path to save the npy radar signal files
-target_dir = 'your path to save the final input hfd5 files' # your path to save the final input hfd5 files
+source_dir = '/hdd1/pu/datasets/hupr/npy' # your path to save the npy radar signal files
+target_dir = '/hdd1/pu/datasets/hupr/hfd5/single_1/' # your path to save the final input hfd5 files
 
 
 if not os.path.exists(target_dir):
@@ -36,14 +36,17 @@ for npy_file in npy_files:
     npy_file_path = os.path.join(source_dir, npy_file)
 
     VRDAERealImag_hori = np.load(npy_file_path)
-
+    print(VRDAERealImag_hori.shape)
     VRDAEmaps_hori = torch.zeros((8, 2, 64, 64, 8))
     idxSampleChirps = 0
     numChirps = 16
     numFrames = 8
+    temp = torch.from_numpy(VRDAERealImag_hori[0].real)
+    # temp = radar_npy_transforms(torch.from_numpy(VRDAERealImag_hori[0].real))
+    print(temp)
     for idxChirps in range(numChirps // 2 - numFrames // 2, numChirps // 2 + numFrames // 2):
         VRDAEmaps_hori[idxSampleChirps, 0, :, :, :] = radar_npy_transforms(
-            VRDAERealImag_hori[idxChirps].real).permute(1, 2, 0)
+            torch.from_numpy(VRDAERealImag_hori[idxChirps].real)).permute(1, 2, 0)
         VRDAEmaps_hori[idxSampleChirps, 1, :, :, :] = radar_npy_transforms(
             VRDAERealImag_hori[idxChirps].imag).permute(1, 2, 0)
         idxSampleChirps += 1

@@ -14,8 +14,8 @@ def bin2npy(bin_file, single_radarimg_dir):
 if __name__ == "__main__":
 
     # need to be set manually
-    radar_dir =  'your path to the raw radar signals from HuPR' # your path to the raw radar signals from HuPR
-    radar_img_dir = 'your path to save the npy radar signal files' # your path to save the npy radar signal files
+    radar_dir =  '/mnt/nas/qian/data/HuPR_Original/original_radar/' # your path to the raw radar signals from HuPR
+    radar_img_dir = '/hdd1/pu/datasets/hupr/npy/' # your path to save the npy radar signal files
 
     # Create the folder if it doesn't exist
     if not os.path.exists(radar_img_dir):
